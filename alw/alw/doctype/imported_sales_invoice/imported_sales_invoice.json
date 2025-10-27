@@ -1,0 +1,424 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-01 07:59:41.750268",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "is_copied",
+  "invoice_no",
+  "customer_name_en",
+  "customer_name_ar",
+  "customer_code",
+  "customer_requestor_en",
+  "customer_requestor_ar",
+  "agent_name_en",
+  "agent_name_ar",
+  "agent_address_en",
+  "agent_address_ar",
+  "agent_building_no_en",
+  "agent_street_name_en",
+  "agent_district_en",
+  "agent_city_en",
+  "agent_country_en",
+  "agent_postal_code_en",
+  "agent_contact_no_en",
+  "agent_building_no_ar",
+  "agent_street_name_ar",
+  "agent_district_ar",
+  "agent_city_ar",
+  "agent_country_ar",
+  "agent_postal_code_ar",
+  "agent_contact_no_ar",
+  "agent_registration_no",
+  "agent_vat_no",
+  "column_break_ikhr",
+  "customer_address_en",
+  "customer_address_ar",
+  "customer_building_no_en",
+  "customer_street_name_en",
+  "customer_district_en",
+  "customer_city_en",
+  "customer_country_en",
+  "customer_postal_code_en",
+  "customer_contact_no_en",
+  "customer_building_no_ar",
+  "customer_street_name_ar",
+  "customer_district_ar",
+  "customer_city_ar",
+  "customer_country_ar",
+  "customer_postal_code_ar",
+  "customer_contact_no_ar",
+  "column_break_rigy",
+  "customer_vat_no",
+  "customer_vendor_code",
+  "financial_site_code",
+  "invoice_date",
+  "invoice_due_date",
+  "invoice_account_no",
+  "total_excl_tax",
+  "total_tax",
+  "total_incl_tax",
+  "total_local_currency",
+  "total_foreign_currency",
+  "total_excl_tax_fc",
+  "total_tax_fc",
+  "total_incl_tax_fc",
+  "bank_name_en",
+  "bank_name_ar",
+  "bank_detail_en",
+  "bank_detail_ar",
+  "section_break_ecqw",
+  "table_pmkf"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "is_copied",
+   "fieldtype": "Check",
+   "label": "Is Copied"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No\t"
+  },
+  {
+   "fieldname": "customer_name_en",
+   "fieldtype": "Data",
+   "label": "Customer Name (EN)"
+  },
+  {
+   "fieldname": "customer_name_ar",
+   "fieldtype": "Data",
+   "label": "Customer Name (AR)"
+  },
+  {
+   "fieldname": "customer_code",
+   "fieldtype": "Data",
+   "label": "Customer Code"
+  },
+  {
+   "fieldname": "customer_requestor_en",
+   "fieldtype": "Data",
+   "label": "Customer Requestor (EN)"
+  },
+  {
+   "fieldname": "customer_requestor_ar",
+   "fieldtype": "Data",
+   "label": "Customer Requestor (AR)"
+  },
+  {
+   "fieldname": "agent_name_en",
+   "fieldtype": "Data",
+   "label": "Agent Name (EN)"
+  },
+  {
+   "fieldname": "agent_name_ar",
+   "fieldtype": "Data",
+   "label": "Agent Name (AR)"
+  },
+  {
+   "fieldname": "agent_address_en",
+   "fieldtype": "Small Text",
+   "label": "Agent Address (EN)"
+  },
+  {
+   "fieldname": "agent_address_ar",
+   "fieldtype": "Small Text",
+   "label": "Agent Address (AR)"
+  },
+  {
+   "fieldname": "agent_building_no_en",
+   "fieldtype": "Data",
+   "label": "Agent Building No (EN)"
+  },
+  {
+   "fieldname": "agent_street_name_en",
+   "fieldtype": "Data",
+   "label": "Agent Street Name (EN)"
+  },
+  {
+   "fieldname": "agent_district_en",
+   "fieldtype": "Data",
+   "label": "Agent District (EN)"
+  },
+  {
+   "fieldname": "agent_city_en",
+   "fieldtype": "Data",
+   "label": "Agent City (EN)"
+  },
+  {
+   "fieldname": "agent_country_en",
+   "fieldtype": "Data",
+   "label": "Agent Country (EN)"
+  },
+  {
+   "fieldname": "agent_postal_code_en",
+   "fieldtype": "Data",
+   "label": "Agent Postal Code (EN)"
+  },
+  {
+   "fieldname": "agent_contact_no_en",
+   "fieldtype": "Data",
+   "label": "Agent Contact No (EN)"
+  },
+  {
+   "fieldname": "agent_building_no_ar",
+   "fieldtype": "Data",
+   "label": "Agent Building No (AR)"
+  },
+  {
+   "fieldname": "agent_street_name_ar",
+   "fieldtype": "Data",
+   "label": "Agent Street Name (AR)"
+  },
+  {
+   "fieldname": "agent_district_ar",
+   "fieldtype": "Data",
+   "label": "Agent District (AR)"
+  },
+  {
+   "fieldname": "agent_city_ar",
+   "fieldtype": "Data",
+   "label": "Agent City (AR)"
+  },
+  {
+   "fieldname": "agent_country_ar",
+   "fieldtype": "Data",
+   "label": "Agent Country (AR)"
+  },
+  {
+   "fieldname": "agent_postal_code_ar",
+   "fieldtype": "Data",
+   "label": "Agent Postal Code (AR)"
+  },
+  {
+   "fieldname": "agent_contact_no_ar",
+   "fieldtype": "Data",
+   "label": "Agent Contact No (AR)"
+  },
+  {
+   "fieldname": "agent_registration_no",
+   "fieldtype": "Data",
+   "label": "Agent Registration No"
+  },
+  {
+   "fieldname": "agent_vat_no",
+   "fieldtype": "Data",
+   "label": "Agent VAT No"
+  },
+  {
+   "fieldname": "column_break_ikhr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_address_en",
+   "fieldtype": "Small Text",
+   "label": "Customer Address (EN)"
+  },
+  {
+   "fieldname": "customer_address_ar",
+   "fieldtype": "Small Text",
+   "label": "Customer Address (AR)"
+  },
+  {
+   "fieldname": "customer_building_no_en",
+   "fieldtype": "Data",
+   "label": "Customer Building No (EN)"
+  },
+  {
+   "fieldname": "customer_street_name_en",
+   "fieldtype": "Data",
+   "label": "Customer Street Name (EN)"
+  },
+  {
+   "fieldname": "customer_district_en",
+   "fieldtype": "Data",
+   "label": "Customer District (EN)"
+  },
+  {
+   "fieldname": "customer_city_en",
+   "fieldtype": "Data",
+   "label": "Customer City (EN)"
+  },
+  {
+   "fieldname": "customer_country_en",
+   "fieldtype": "Data",
+   "label": "Customer Country (EN)\t"
+  },
+  {
+   "fieldname": "customer_postal_code_en",
+   "fieldtype": "Data",
+   "label": "Customer Postal Code (EN)"
+  },
+  {
+   "fieldname": "customer_contact_no_en",
+   "fieldtype": "Data",
+   "label": "Customer Contact No (EN)"
+  },
+  {
+   "fieldname": "customer_building_no_ar",
+   "fieldtype": "Data",
+   "label": "Customer Building No (AR)"
+  },
+  {
+   "fieldname": "customer_street_name_ar",
+   "fieldtype": "Data",
+   "label": "Customer Street Name (AR)"
+  },
+  {
+   "fieldname": "customer_district_ar",
+   "fieldtype": "Data",
+   "label": "Customer District (AR)"
+  },
+  {
+   "fieldname": "customer_city_ar",
+   "fieldtype": "Data",
+   "label": "Customer City (AR)"
+  },
+  {
+   "fieldname": "customer_country_ar",
+   "fieldtype": "Data",
+   "label": "Customer Country (AR)"
+  },
+  {
+   "fieldname": "customer_postal_code_ar",
+   "fieldtype": "Data",
+   "label": "Customer Postal Code (AR)"
+  },
+  {
+   "fieldname": "customer_contact_no_ar",
+   "fieldtype": "Data",
+   "label": "Customer Contact No (AR)"
+  },
+  {
+   "fieldname": "column_break_rigy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_vat_no",
+   "fieldtype": "Data",
+   "label": "Customer VAT No"
+  },
+  {
+   "fieldname": "customer_vendor_code",
+   "fieldtype": "Data",
+   "label": "Customer Vendor Code"
+  },
+  {
+   "fieldname": "financial_site_code",
+   "fieldtype": "Data",
+   "label": "Financial Site Code"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "invoice_due_date",
+   "fieldtype": "Datetime",
+   "label": "Invoice Due Date"
+  },
+  {
+   "fieldname": "invoice_account_no",
+   "fieldtype": "Data",
+   "label": "Invoice Account No"
+  },
+  {
+   "fieldname": "total_excl_tax",
+   "fieldtype": "Currency",
+   "label": "Total Excl. Tax"
+  },
+  {
+   "fieldname": "total_tax",
+   "fieldtype": "Currency",
+   "label": "Total Tax"
+  },
+  {
+   "fieldname": "total_incl_tax",
+   "fieldtype": "Currency",
+   "label": "Total Incl. Tax"
+  },
+  {
+   "fieldname": "total_local_currency",
+   "fieldtype": "Data",
+   "label": "Total Local Currency"
+  },
+  {
+   "fieldname": "total_foreign_currency",
+   "fieldtype": "Data",
+   "label": "Total Foreign Currency\t"
+  },
+  {
+   "fieldname": "total_excl_tax_fc",
+   "fieldtype": "Currency",
+   "label": "total_excl_tax_fc"
+  },
+  {
+   "fieldname": "total_tax_fc",
+   "fieldtype": "Currency",
+   "label": "Total Tax (FC)"
+  },
+  {
+   "fieldname": "total_incl_tax_fc",
+   "fieldtype": "Currency",
+   "label": "total_incl_tax_fc"
+  },
+  {
+   "fieldname": "bank_name_en",
+   "fieldtype": "Data",
+   "label": "Bank Name (EN)"
+  },
+  {
+   "fieldname": "bank_name_ar",
+   "fieldtype": "Data",
+   "label": "Bank Name (AR)"
+  },
+  {
+   "fieldname": "bank_detail_en",
+   "fieldtype": "Small Text",
+   "label": "Bank Detail (EN)"
+  },
+  {
+   "fieldname": "bank_detail_ar",
+   "fieldtype": "Small Text",
+   "label": "Bank Detail (AR)"
+  },
+  {
+   "fieldname": "section_break_ecqw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_pmkf",
+   "fieldtype": "Table",
+   "label": "Item_List",
+   "options": "Imported Sales Invoice Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-11 17:22:17.317340",
+ "modified_by": "Administrator",
+ "module": "Alw",
+ "name": "Imported Sales Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,67 @@
+[
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2023-07-11 13:51:21.832012",
+  "name": "883c65411d",
+  "source_text": "Iqama No",
+  "translated_text": "رقم الإقامة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2023-09-13 15:38:57.472306",
+  "name": "26ddbc9571",
+  "source_text": "مؤسسة العوادليه التجاريه  ",
+  "translated_text": "Alawadiliah Trading Company"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2023-10-02 13:34:17.877797",
+  "name": "0578876e2c",
+  "source_text": "Total",
+  "translated_text": "إجمالي"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2023-12-03 12:35:44.577260",
+  "name": "6b177c07bd",
+  "source_text": "SUP-00001",
+  "translated_text": "رقم المورد"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-03-31 12:06:49.925096",
+  "name": "d59b308d5f",
+  "source_text": "Process Statement Of Accounts",
+  "translated_text": "كشف حساب العملاء متعدد"
+ }
+]

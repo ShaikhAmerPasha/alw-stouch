@@ -1,0 +1,201 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-14 08:44:04.919752",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "sales_invoice_section",
+  "site_name",
+  "site_url",
+  "secret_key",
+  "default_customer",
+  "warehouse",
+  "cost_center",
+  "receivable_account",
+  "column_break_bgwl",
+  "synced_till",
+  "synced_to",
+  "sales_return_series",
+  "sales_invoice_series",
+  "company",
+  "sales_tax_template",
+  "sync_invoices",
+  "section_break_xxrm",
+  "accounts_setting"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sales_invoice_section",
+   "fieldtype": "Section Break",
+   "label": "Sales Invoice"
+  },
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "label": "Site Name",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0"
+  },
+  {
+   "fieldname": "site_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Site Url",
+   "length": 500,
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "secret_key",
+   "fieldtype": "Data",
+   "label": "Secret Key",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "default_customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default Customer",
+   "options": "Customer",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "label": "Cost Center",
+   "options": "Cost Center",
+   "read_only_depends_on": "eval:doc.enabled === 0"
+  },
+  {
+   "fieldname": "receivable_account",
+   "fieldtype": "Link",
+   "label": "Receivable Account",
+   "options": "Account",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bgwl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "synced_till",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Synced till",
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "synced_to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Synced to",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "sales_return_series",
+   "fieldtype": "Data",
+   "label": "Sales Return Series",
+   "no_copy": 1,
+   "print_hide": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sales_invoice_series",
+   "fieldtype": "Data",
+   "label": "Sales Invoice Series",
+   "no_copy": 1,
+   "print_hide": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0"
+  },
+  {
+   "fieldname": "sales_tax_template",
+   "fieldtype": "Link",
+   "label": "Sales Tax Template",
+   "options": "Sales Taxes and Charges Template",
+   "read_only": 1,
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sync_invoices",
+   "fieldtype": "Button",
+   "label": "Sync Invoices",
+   "read_only_depends_on": "eval:doc.enabled === 0"
+  },
+  {
+   "fieldname": "section_break_xxrm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "accounts_setting",
+   "fieldtype": "Table",
+   "label": "Accounts Setting",
+   "options": "Accounts Setting",
+   "read_only_depends_on": "eval:doc.enabled === 0",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-14 12:03:29.170016",
+ "modified_by": "Administrator",
+ "module": "Alw",
+ "name": "Complis Site",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

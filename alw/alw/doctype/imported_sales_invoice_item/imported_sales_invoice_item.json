@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-01 08:33:58.603403",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sr_no",
+  "item_desc_en",
+  "item_desc_ar",
+  "item_version_no",
+  "item_division_en",
+  "item_division_ar",
+  "column_break_zhqz",
+  "item_qty",
+  "item_tax",
+  "item_price",
+  "point_order_no",
+  "customer_order_no",
+  "item_brand_en",
+  "item_brand_ar"
+ ],
+ "fields": [
+  {
+   "fieldname": "sr_no",
+   "fieldtype": "Data",
+   "label": "sr_no",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "item_desc_en",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "item_desc_en"
+  },
+  {
+   "fieldname": "item_desc_ar",
+   "fieldtype": "Small Text",
+   "label": "item_desc_ar",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "item_version_no",
+   "fieldtype": "Data",
+   "label": "item_version_no",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "item_division_en",
+   "fieldtype": "Data",
+   "label": "item_division_en",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "item_division_ar",
+   "fieldtype": "Data",
+   "label": "item_division_ar",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "column_break_zhqz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "item_qty"
+  },
+  {
+   "fieldname": "item_tax",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "item_tax"
+  },
+  {
+   "fieldname": "item_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "item_price"
+  },
+  {
+   "fieldname": "point_order_no",
+   "fieldtype": "Int",
+   "label": "point_order_no",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "customer_order_no",
+   "fieldtype": "Data",
+   "label": "customer_order_no",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "item_brand_en",
+   "fieldtype": "Data",
+   "label": "item_brand_en",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "item_brand_ar",
+   "fieldtype": "Data",
+   "label": "item_brand_ar",
+   "print_hide": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-06 21:49:32.356689",
+ "modified_by": "Administrator",
+ "module": "Alw",
+ "name": "Imported Sales Invoice Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

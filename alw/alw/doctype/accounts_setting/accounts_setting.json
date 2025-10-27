@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-14 10:34:20.696307",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "currency",
+  "price_list",
+  "column_break_uarl",
+  "credit_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Price List",
+   "options": "Price List"
+  },
+  {
+   "fieldname": "column_break_uarl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Credit to",
+   "options": "Account",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-14 10:38:48.709298",
+ "modified_by": "Administrator",
+ "module": "Alw",
+ "name": "Accounts Setting",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-22 11:58:43.373665",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "item_qty",
+  "item_tax",
+  "item_price",
+  "stock_qty",
+  "rate",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "item_qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Qty"
+  },
+  {
+   "fieldname": "item_tax",
+   "fieldtype": "Currency",
+   "label": "Item Tax",
+   "options": "custom_currency"
+  },
+  {
+   "fieldname": "item_price",
+   "fieldtype": "Currency",
+   "label": "Item Price",
+   "options": "custom_currency"
+  },
+  {
+   "fieldname": "stock_qty",
+   "fieldtype": "Float",
+   "label": "Stock Qty"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate",
+   "options": "custom_currency"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "options": "custom_currency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-03 09:47:14.526652",
+ "modified_by": "Administrator",
+ "module": "Alw",
+ "name": "Imported Purchase Invoice Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

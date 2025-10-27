@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-22 10:58:55.067531",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_name_en",
+  "supplier_name_ar",
+  "supplier_code",
+  "supplier_address_en",
+  "supplier_address_ar",
+  "supplier_vat_no",
+  "column_break_bvkj",
+  "invoice_no",
+  "invoice_date",
+  "invoice_due",
+  "invoice_account_no",
+  "is_return",
+  "return_against",
+  "total_excl_tax",
+  "total_tax",
+  "total_incl_tax",
+  "assets_id",
+  "financial_site_code",
+  "ptdrive_invoice_number",
+  "section_break_tqms",
+  "items",
+  "section_break_snfk",
+  "taxes",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier_name_en",
+   "fieldtype": "Data",
+   "label": "Supplier Name (EN)"
+  },
+  {
+   "fieldname": "supplier_name_ar",
+   "fieldtype": "Data",
+   "label": "Supplier Name (AR)"
+  },
+  {
+   "fieldname": "supplier_code",
+   "fieldtype": "Data",
+   "label": "Supplier Code"
+  },
+  {
+   "fieldname": "supplier_address_en",
+   "fieldtype": "Small Text",
+   "label": "Supplier Address (EN)"
+  },
+  {
+   "fieldname": "supplier_address_ar",
+   "fieldtype": "Small Text",
+   "label": "Supplier Address (AR)"
+  },
+  {
+   "fieldname": "supplier_vat_no",
+   "fieldtype": "Data",
+   "label": "Supplier VAT No"
+  },
+  {
+   "fieldname": "column_break_bvkj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Data",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "invoice_due",
+   "fieldtype": "Data",
+   "label": "Invoice Due"
+  },
+  {
+   "fieldname": "invoice_account_no",
+   "fieldtype": "Data",
+   "label": "Invoice Account No"
+  },
+  {
+   "fieldname": "is_return",
+   "fieldtype": "Select",
+   "label": "Is Return",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "return_against",
+   "fieldtype": "Data",
+   "label": "Return Against"
+  },
+  {
+   "fieldname": "total_excl_tax",
+   "fieldtype": "Currency",
+   "label": "Total Excl. Tax",
+   "options": "custom_currency"
+  },
+  {
+   "fieldname": "total_tax",
+   "fieldtype": "Currency",
+   "label": "Total Tax"
+  },
+  {
+   "fieldname": "total_incl_tax",
+   "fieldtype": "Currency",
+   "label": "Total Incl. Tax"
+  },
+  {
+   "fieldname": "assets_id",
+   "fieldtype": "Data",
+   "label": "Assets ID"
+  },
+  {
+   "fieldname": "financial_site_code",
+   "fieldtype": "Data",
+   "label": "Financial Site Code"
+  },
+  {
+   "fieldname": "ptdrive_invoice_number",
+   "fieldtype": "Data",
+   "label": "PTDrive Invoice Number"
+  },
+  {
+   "fieldname": "section_break_tqms",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Imported Purchase Invoice Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_snfk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "taxes",
+   "fieldtype": "Table",
+   "label": "Taxes",
+   "options": "Imported Purchase Invoice Taxes"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Table",
+   "label": "Attachments",
+   "options": "Attachments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-03 09:40:40.963122",
+ "modified_by": "Administrator",
+ "module": "Alw",
+ "name": "Imported Purchase Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
